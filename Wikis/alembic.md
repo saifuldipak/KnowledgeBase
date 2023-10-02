@@ -31,11 +31,11 @@ It will create a directory named 'alembic' inside current directory
 >Parent: <base>  
 >Path: /home/saiful/Projects/sserpapi/sserpapi/alembic/versions/a5b3be35c1ca_add_all_tables.py   
 ><br/>
->&nbsp;&nbsp; Add all tables 
+>Add all tables 
 ><br/>   
->&nbsp;&nbsp;Revision ID: a5b3be35c1ca   
->&nbsp;&nbsp;Revises:     
->&nbsp;&nbsp;Create Date: 2023-10-02 12:59:46.209011  
+>Revision ID: a5b3be35c1ca   
+>Revises:     
+>Create Date: 2023-10-02 12:59:46.209011  
 ><br/>
 
 >`$ alembic current`
@@ -46,4 +46,4 @@ It will create a directory named 'alembic' inside current directory
   
 <br/>
 
-### For details https://alembic.sqlalchemy.org/en/latest/index.html#
+#### For details https://alembic.sqlalchemy.org/en/latest/index.html#
