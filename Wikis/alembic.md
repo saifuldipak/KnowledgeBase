@@ -28,14 +28,14 @@ It will create a directory named 'alembic' inside current directory
 ### 6. Check logs 
 >`$ alembic history --verbose` 
 >>Rev: a5b3be35c1ca (head)  
->Parent: <base>  
->Path: /home/saiful/Projects/sserpapi/sserpapi/alembic/versions/a5b3be35c1ca_add_all_tables.py   
-><br/>
->Add all tables 
-><br/>   
->Revision ID: a5b3be35c1ca   
->Revises:     
->Create Date: 2023-10-02 12:59:46.209011  
+>>Parent: <base>  
+>>Path: /home/saiful/Projects/sserpapi/sserpapi/alembic/versions/a5b3be35c1ca_add_all_tables.py   
+>><br/>
+>>Add all tables 
+>><br/>   
+>>Revision ID: a5b3be35c1ca   
+>>Revises:     
+>>Create Date: 2023-10-02 12:59:46.209011  
 ><br/>
 
 >`$ alembic current`
