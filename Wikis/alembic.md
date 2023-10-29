@@ -5,17 +5,19 @@
 
 ### 2. Initialization
 It will create a directory named 'alembic' inside current directory  
->`$ cd /home/saiful/Projects/myapp/myapp`  
+>`$ cd /home/user/Projects/myapp/myapp`  
 >`$ alembic init alembic`
 
 ### 3. Edit config files
 ##### Edit alembic.ini like below  
->prepend_sys_path = ..  
 >sqlalchemy.url = sqlite:///./simple_erp.db (if sqlite database)
 
 ##### Edit env.py like below  
->from myapp.sql_models import Base  
+>from sql_models import Base  
 >target_metadata = Base.metadata
+
+##### Note: need to set environment variable PYTHONPATH for above env.py to work
+>$ export PYTHONPATH=/home/user/Projects/myapp/myapp
 
 ### 4. Autogenerate revision
 ##### It will create revision in the "alembic/version" folder, check to see whether it is corrctly reflecting changes  
